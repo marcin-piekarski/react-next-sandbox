@@ -10,5 +10,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "storefront:dev": "yarn workspace @acme/storefront-server run dev"
+  }
 }
