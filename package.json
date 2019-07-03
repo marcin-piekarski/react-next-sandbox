@@ -1,0 +1,14 @@
+{
+  "name": "react-next-sandbox",
+  "version": "0.0.0",
+  "description": "React/Next.js Sandbox",
+  "main": "index.js",
+  "author": "Marcin Piekarski <contact@marcin.com.au>",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
