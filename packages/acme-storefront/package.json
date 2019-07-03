@@ -1,8 +1,9 @@
 {
-  "name": "acme-storefront",
+  "name": "@acme/storefront",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@acme/static-assets": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"

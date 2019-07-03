@@ -1,5 +1,5 @@
 {
-  "name": "acme-storefront-server",
+  "name": "@acme/storefront-server",
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
@@ -9,6 +9,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@acme/static-assets": "^1.0.0",
+    "@acme/storefront": "^0.1.0",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
