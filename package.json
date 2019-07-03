@@ -12,6 +12,12 @@
     "packages/*"
   ],
   "scripts": {
-    "storefront:dev": "yarn workspace @acme/storefront-server run dev"
+    "start": "yarn run storefront:server:dev",
+    "storefront:server:dev": "yarn workspace @acme/storefront-server run dev",
+    "storefront:server:build": "yarn workspace @acme/storefront-server run build",
+    "storefront:server:start": "yarn workspace @acme/storefront-server run start",
+    "storefront:start": "yarn workspace @acme/storefront run start",
+    "storefront:build": "yarn workspace @acme/storefront run build",
+    "storefront:test": "yarn workspace @acme/storefront run test"
   }
 }
